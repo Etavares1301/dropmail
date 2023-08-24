@@ -1,0 +1,56 @@
+@import '../../../../config-scss/rem-calc.scss';
+@import '../../../../config-scss/variables.scss';
+
+.inp-logo {
+  border-radius: rem-calc(50);
+}
+
+.input-copy {
+  border-radius: 0px 6px 10px 0px;
+  height: rem-calc(40);
+  width: rem-calc(270);
+  background: var(--secondary-color);
+  color: #000;
+
+}
+
+.span-at {
+  border-radius: rem-calc(50);
+  background: var(--secondary-color);
+  height: rem-calc(30);
+  width: rem-calc(30);
+  cursor: pointer;
+
+}
+
+.btn-copy {
+  border-radius: 6px 0px 0px 10px;
+  background: var(--secondary-color);
+  height: rem-calc(30);
+  cursor: pointer;
+}
+
+.nav {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: rem-calc(25);
+  box-sizing: border-box;
+  width: rem-calc(300);
+}
+
+.nav-box {
+  flex-wrap: no-wrap;
+  width: 100%;
+  background-color: var(--nav);
+  color: var( --secondary-color);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.35)
+}
+
+.icon {
+  font-size: rem-calc(10);
+}
+
+.copy-ico {
+  width: rem-calc(60);
+  height: rem-calc(40);
+  background-color: #5d96f5;
+}

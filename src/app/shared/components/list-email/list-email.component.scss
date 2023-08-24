@@ -1,0 +1,83 @@
+@import '../../../../config-scss/rem-calc.scss';
+@import '../../../../config-scss/variables.scss';
+
+
+.text-inbox {
+  color: var(--text-color);
+  box-sizing: border-box;
+  padding: 20px 20px;
+}
+
+.content {
+  width: rem-calc(800);
+  background-color: var( --secondary-color);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .35);
+}
+
+.icon-card {
+  box-sizing: content-box;
+}
+
+.text-message {
+  background: var(--secondary-color);
+  box-sizing: border-box;
+  height: 65vh;
+}
+
+.btn-back {
+  background: none;
+  color: #888888;
+
+}
+
+.btn-notification {
+  background: none;
+  height: 50px;
+  width: 50px;
+}
+
+.email {
+  padding: 20px 30px;
+  font-size: 12px;
+  color: #ff6839;
+  border-bottom: 1px solid #CFCFCF;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.active {
+  border-left: 2px solid #046bc7;
+}
+
+.email-content {
+  color: #888888;
+  width: rem-calc(400);
+}
+
+.subject-container {
+  width: rem-calc(200);
+}
+
+.email .subject-container i {
+  font-size: rem-calc(20);
+  margin-right: rem-calc(25);
+}
+
+.update {
+  color: #ff6839;
+}
+
+.email-options i {
+  color: #c0c0c0;
+  font-size: rem-calc(25);
+  margin-right: rem-calc(20);
+}
+
+.text-message {
+  border-radius: 5px;
+}
+
+.empty-email {
+  width: rem-calc(800);
+  height: rem-calc(500);
+}

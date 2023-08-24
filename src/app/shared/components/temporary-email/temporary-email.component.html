@@ -1,0 +1,23 @@
+<div class="nav-box d-flex justify-content-between align-items-center p-2">
+  <div class="nav d-flex justify-content-center align-items-center">
+    <h3 class="fs-1">DropMail</h3>
+  </div>
+  <div class="d-flex justify-content-center align-items-center">
+    <i
+      class="fa-solid fa-copy fa-xl copy-ico btn-copy d-flex justify-content-center align-items-center"
+      (click)="copyEmail()"
+      title="Copiar Email"
+    ></i>
+    <span class="input-copy p-2 fs-5">{{ inputEmail }}</span>
+  </div>
+  <div class="d-flex">
+    <span
+      class="fa-stack icon span-at d-flex justify-content-center align-items-center me-5 mt-3"
+      title="Gerar Email"
+      (click)="generateEmail()"
+    >
+      <i class="fa-solid fa-at fa-xl" style="color: #213454"></i>
+    </span>
+    <img class="inp-logo pe-2" src="../../../../assets/logo.PNG" />
+  </div>
+</div>
